@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crystal Coves DEMO</title>
+        <link rel="stylesheet" href="styles.css">
+        <link id="favicon-link" rel="icon" type="image/png" href="assets/stone.png">
+        <script src="index.js" defer></script> 
+    </head>
+    <body>
+        <canvas id="GAME" width="1600px" height="900px"></canvas>
+        <!--IMAGES-->
+        <br>
+        <p>Ores are listed in increasing rarity</p>
+        <button onclick="showInfo('stone')" ><img src="assets/stone.png" id="tx-stone" hidden></button>
+        <span id="stone-counter"></span>
+        <button onclick="showInfo('copper')" ><img src="assets/copper.png" id="tx-copper" hidden></button>
+        <span id="copper-counter"></span>
+        <button onclick="showInfo('coal')" ><img src="assets/coal.png" id="tx-coal" hidden></button>
+        <span id="coal-counter"></span>
+        <button onclick="showInfo('iron')"><img src="assets/iron.png" id="tx-iron" hidden></button>
+        <span id="iron-counter"></span>
+        <button onclick="showInfo('lead')" ><img src="assets/lead.png" id="tx-lead" hidden></button>
+        <span id="lead-counter"></span>
+        <button onclick="showInfo('gold')" ><img src="assets/gold.png" id="tx-gold" hidden></button>
+        <span id="gold-counter"></span>
+        <img src="assets/voidElement.png" id="tx-voidElement" hidden>
+        <span id="voidElement-counter" hidden>ew leaker</span>
+        <p id="oreInfo">Click on an ore image to view information about it</p>
+        <br>
+        <button onclick="clearMine()" class="button">Clear the mine</button>
+        <br>
+    </body>
+</html>
